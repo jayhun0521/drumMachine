@@ -1,10 +1,12 @@
 html {
-  font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  font-size: 12px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body,html {
+  text-align: center;
+  
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -55,5 +57,13 @@ background-image: url("https://wallpapercave.com/wp/KARQiCN.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 position: relative;
-margin-block: ;
+margin-block: auto;
+}
+
+.container {
+  color: #ffc600;
+  font-size: x-large;
+  padding-top: 50px;
+  margin-top: 50px;
+  
 }
